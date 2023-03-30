@@ -6,12 +6,12 @@ namespace Task7
     {
         static void Main(string[] args)
         {
+            //Task71
 
-
-            Console.WriteLine(Ask7);
+            
 
         }
-        static void Ask7()
+        static void Task71()
 
              
         {
@@ -52,7 +52,18 @@ namespace Task7
 
         }
 
+        static void Task72(string a)
+        {
+            //2) Verilmish metnde sol terefden tek yerde dayanan simvollarin hamisi {a} simvoludurmu?
 
+            string x = "2) Verilmish metnde sol terefden tek yerde dayanan simvollarin hamisi {a} simvoludurmu?"
+
+
+
+
+
+
+        }
 
     }
 
