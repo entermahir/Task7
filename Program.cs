@@ -13,7 +13,7 @@ namespace Task7
         }
         static void Ask7()
 
-
+             
         {
 
             //1) Verilmish metnde {a} simvolun sayi {b} simvolun sayinda nece defe coxdur?
