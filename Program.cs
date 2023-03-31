@@ -7,13 +7,45 @@ namespace Task7
         static void Main(string[] args)
         {
             //Task71
+            //Task72
+            // 3) Verilmish metnde sol terefden tek yerde dayanan simvollardan necesi { b}
+            // -ye beraberdir.
+            string h = "b)bbb";
+            char b = 'b';
+            int Counter = 0;
+            for (int i = 0; i < h.Length; i++)
+            {
+                if (i%2==0)
+                {
+                    if (b == h[i])
+                    {
+                        Counter++;
 
-            
+
+
+                    }
+
+
+
+                }
+
+
+
+
+
+
+            }
+
+                        Console.WriteLine(Counter);
+
+
+
+
 
         }
         static void Task71()
 
-             
+
         {
 
             //1) Verilmish metnde {a} simvolun sayi {b} simvolun sayinda nece defe coxdur?
@@ -56,7 +88,38 @@ namespace Task7
         {
             //2) Verilmish metnde sol terefden tek yerde dayanan simvollarin hamisi {a} simvoludurmu?
 
-            string x = "2) Verilmish metnde sol terefden tek yerde dayanan simvollarin hamisi {a} simvoludurmu?"
+            string x = "2) Verilmish metnde sol terefden tek yerde dayanan simvollarin hamisi {a} simvoludurmu?";
+
+            char indx = 'a';
+
+            for (int i = 0; i < x.Length; i++)
+            {
+                if (i % 2 == 0)
+
+                {
+
+                    if (indx == x[i])
+                    {
+
+                        Console.WriteLine("he");
+
+
+                    }
+                    else
+                        Console.WriteLine("yox"); break;
+
+
+
+
+
+                }
+
+
+
+
+
+
+            }
 
 
 
@@ -64,6 +127,21 @@ namespace Task7
 
 
         }
+
+        static void Task73(string a)
+        {
+
+
+
+
+
+
+
+
+
+        }
+
+
 
     }
 
