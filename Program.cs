@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System;
+using System.Diagnostics.Metrics;
+using System.Text.RegularExpressions;
 
 namespace Task7
 {
@@ -18,17 +20,42 @@ namespace Task7
              simvolu varsa, ve metn daxilinde { b} simvolu yoxdursa o zaman bu metnde butun { c}            
                     simvollari yox et ve neticede alinan metn zerkalni olub olmadigini yoxla.*/
             Console.Write(" Metni daxil et:");
-            string metn =Console.ReadLine();
-            int fi = metn.IndexOf('a');
-            int li=metn.LastIndexOf("a");
-
-            if (fi==0 && li == metn.Length)
+            string metn = Console.ReadLine();
+            // int fi = metn.IndexOf();
+            // int li=metn.LastIndexOf();
+            char lastch = metn[metn.Length - 1];
+            char fstch = metn[0];
+            char b = 'b';
+            string metn2;
+            if (lastch == fstch)
             {
 
-                if (fi==0)
+                for (int i = 0; i < metn.Length; i++)
                 {
 
+                    if (metn[i] == metn[i + 1] || metn[i] == b)
+                    {
+
+                         metn2 = Regex.Replace(metn, "c","");
+
+                         
+
+
+
+                        // zerkalni sohbeti qaldi.
+
+
+
+                    }
+
+
+
+
+
                 }
+
+
+
 
 
 
@@ -37,7 +64,7 @@ namespace Task7
             }
 
 
-                Console.WriteLine("Zerkalni metn Yazmisan ))");
+            Console.WriteLine("Zerkalni metn Yazmisan ))");
 
 
 
